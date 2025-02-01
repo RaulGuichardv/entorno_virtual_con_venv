@@ -21,3 +21,18 @@ Desactivar el entorno virtual
 para poder salir del entorno virtual es necesario esta linea en la terminal:
 
 deactivate
+
+
+Archivo requirements.txt
+para generar un archivo con que contenga todas las librerias de tu proyecto usa:
+
+pip freeze > "el nombre de el archivo".txt
+
+Ejemplo
+pip freeze requirements.txt
+
+Para poder instalar las librerias del archivo usa:
+pip install -r "nombre del archivo".text
+
+Ejemplo
+pip install -r requirements.txt y se instalaran todas las librerias en tu proyecto
